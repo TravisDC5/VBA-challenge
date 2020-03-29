@@ -53,7 +53,7 @@ Sub StockCalculations()
         Next
     
         ' Formatting Cell Loop
-        For i = 2 To j
+        For i = 2 To j-1
     
             Cells(i, 10).NumberFormat = "0.00%"
         
