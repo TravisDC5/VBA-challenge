@@ -57,7 +57,7 @@ Sub StockCalculations()
     
             Cells(i, 10).NumberFormat = "0.00%"
         
-            If Cells(i, 9).Value > 0 Then
+            If Cells(i, 9).Value >= 0 Then
                 Cells(i, 9).Interior.ColorIndex = 4
 
             ElseIf Cells(i, 9).Value < 0 Then
